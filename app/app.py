@@ -17,7 +17,7 @@ def surface_form() -> List[Dict]:
     connection = mysql.connector.connect(**config)
     cursor = connection.cursor()
     cursor.execute('SELECT * FROM surface')
-    results = [{devanagari: roman} for (id, devanagari, roman, verse, position, line) in cursor]
+    results = [{"roman": roman, "devanagari": devanagari} for (id, devanagari, roman, verse, position, line) in cursor]
     cursor.close()
     connection.close()
 
