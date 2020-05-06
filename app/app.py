@@ -26,7 +26,7 @@ def surface_form() -> List[Dict]:
 
 @app.route('/')
 def index() -> str:
-    return json.dumps({'surface_from': surface_form()})
+    return json.dumps({'surface_from': surface_form()}, ensure_ascii=False).encode('utf-8')
 
 
 if __name__ == '__main__':
