@@ -124,8 +124,8 @@ VALUES
     (6, N'kṛṣṇā', 'f pn', N'Kṛṣṇā', NULL, 1),
     (7, N'kṛṣṇa', 'adj', N'dark', NULL, 0),
     (8, N'prāpya', 'abs', N'having attained', NULL, 1),
-    (9, N'pra√āp', 'vt5a', N'attain', NULL, 0)
-    (10, N'kleśa', 'm noun', N'affliction', NULL, 0)
+    (9, N'pra√āp', 'vt5a', N'attain', NULL, 0),
+    (10, N'kleśa', 'm noun', N'affliction', NULL, 0),
     (11, N'anuttama', 'adj cbv', N'unsurpassed',
         N'avidyamānaḥ uttamaḥ yasmāt saḥ, that in relation to which there is no supreme', 1),
     (12, N'na', 'neg pcl', N'not', NULL, 0),
